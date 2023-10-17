@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: #16FF00;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title{
+    font-size: 20px;
+    color: #FFED00;
+}
+
+.middle{
+    font-size: 20px;
+    text-align: center;
+}
+
+hr{
+    border: solid 2px #0F6292;
+    margin: 5px;
+}
