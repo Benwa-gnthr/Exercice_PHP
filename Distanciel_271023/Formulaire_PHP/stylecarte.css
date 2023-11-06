@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+
+}
+
+body{
+    background: url(./Images/fond_carte.jpg);
+    color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.container{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: solid 3px rgba(254, 254, 254, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.coord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mini_title{
+    background-color: rgba(254, 254, 254, 0.5);
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.7);
+}

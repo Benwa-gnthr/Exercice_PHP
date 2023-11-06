@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #ECE3CE;
+    color: #3A4D39;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container1{
+    background-color: #3A4D39;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50vw;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container1 table{
+    position: relative;
+    z-index: 1;
+}
+
+.container1 h2{
+    position: relative;
+    z-index: 1;
+}
+
+.container1 h3{
+    position: relative;
+    z-index: 1;
+}
+
+.container1::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--YPos);
+    background-color: #ECE3CE;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+}
+
+.container1:hover::before{
+    width: 2000px;
+    height: 2000px; 
+}
+
+/* Container 2 */
+
+.container2{
+    background-color: #3A4D39;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50vw;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container2 table{
+    position: relative;
+    z-index: 1;
+}
+
+.container2 h2{
+    position: relative;
+    z-index: 1;
+}
+
+.container2 h3{
+    position: relative;
+    z-index: 1;
+}
+
+.container2::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--YPos);
+    background-color: #ECE3CE;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+}
+
+.container2:hover::before{
+    width: 2000px;
+    height: 2000px; 
+}
+
+/* Container 3 */
+
+.container3{
+    background-color: #3A4D39;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50vw;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container3 table{
+    position: relative;
+    z-index: 1;
+}
+
+.container3 h2{
+    position: relative;
+    z-index: 1;
+}
+
+.container3 h3{
+    position: relative;
+    z-index: 1;
+}
+
+.container3::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--YPos);
+    background-color: #ECE3CE;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+}
+
+.container3:hover::before{
+    width: 2000px;
+    height: 2000px; 
+}
